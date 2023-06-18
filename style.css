@@ -126,6 +126,24 @@ hr {
 
 }
 
+.header.fixed {
+
+    background-color: #eb8b8d;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .2);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    transform: translate3d(0, 0, 0);
+}
+
+.header.active {
+    background-color: #eb8b8d;
+}
+
 .header-inner {
     display: flex;
     justify-content: space-between;
@@ -199,10 +217,18 @@ hr {
 .nav-toggle {
     width: 30px;
     padding: 10px 0;
+    display: none;
+
+    font-size: 0;
+    color: transparent;
+
+    border: 0;
+    background: none;
+    cursor: pointer;
 
     position: absolute;
-    top: 30px;
-    right: 30px;
+    top: 24px;
+    right: 24px;
     z-index: 1;
 }
 
@@ -219,6 +245,12 @@ hr {
     bottom: 0;
     left: 0;
     margin: auto;
+
+    transition: background .2s linear;
+}
+
+.nav-toggle.active .nav-toggle-item {
+    background: none;
 }
 
 .nav-toggle-item::before,
@@ -232,6 +264,18 @@ hr {
     position: absolute;
     left: 0;
     z-index: 1;
+
+    transition: transform .2s linear;
+}
+
+.nav-toggle.active .nav-toggle-item::before {
+    transform-origin: left top;
+    transform: rotate(45deg) translateX(-3px);
+}
+
+.nav-toggle.active .nav-toggle-item::after {
+    transform-origin: left bottom;
+    transform: rotate(-45deg) translateX(-3px);
 }
 
 .nav-toggle-item::before {
@@ -1405,9 +1449,33 @@ hr {
         min-height: 650px;
     }
 
+    /* Header */
+    .header {
+        padding: 10px 10px;
+    }
+
     /* Navigation */
     .nav {
         display: none;
+        width: 100%;
+
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+        background-color: #eb8b8d;
+    }
+
+    .nav-link {
+        display: block;
+        margin: 0;
+        padding: 8px 20px;
+
+        text-align: left;
+    }
+
+    .nav-toggle {
+        display: block;
     }
 
     /* Slider */
