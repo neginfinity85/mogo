@@ -152,6 +152,7 @@ hr {
 }
 
 .header-logo {
+    cursor: pointer;
 
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
