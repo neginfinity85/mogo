@@ -28,40 +28,40 @@
     <!-- Header -->
     <header class="header" id="header">
         <div class="container">
-            <div class="header-inner">
-                <div class="header-logo" data-scroll="#intro">MoGo</div>
+            <div class="header__inner">
+                <a class="header__logo" href="#">MoGo</a>
 
                 <!-- Navigation -->
                 <nav class="nav" id="nav">
-                    <a class="nav-link active" href="#about" data-scroll="#about">About</a>
-                    <a class="nav-link" href="#services" data-scroll="#services">Service</a>
-                    <a class="nav-link" href="#works" data-scroll="#works">Work</a>
-                    <a class="nav-link" href="#blog" data-scroll="#blog">Blog</a>
-                    <a class="nav-link" href="#footer" data-scroll="#footer">Contact</a>
-                    <a class="nav-link" href="#6">
+                    <a class="nav__link active" href="#about" data-scroll="#about">About</a>
+                    <a class="nav__link" href="#services" data-scroll="#services">Service</a>
+                    <a class="nav__link" href="#works" data-scroll="#works">Work</a>
+                    <a class="nav__link" href="#blog" data-scroll="#blog">Blog</a>
+                    <a class="nav__link" href="#footer" data-scroll="#footer">Contact</a>
+                    <a class="nav__link" href="#6">
                         <i class="fa-solid fa-cart-shopping"></i>
                     </a>
-                    <a class="nav-link" href="#7">
+                    <a class="nav__link" href="#7">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </a>
                 </nav>
 
                 <button class="nav-toggle" id="nav-toggle" type="button">
-                    <span class="nav-toggle-item">Menu</span>
+                    <span class="nav-toggle__item">Menu</span>
                 </button>
 
-            </div><!-- /.header-inner -->
+            </div><!-- /.header__inner -->
         </div><!-- /.container -->
     </header>
 
     <div class="page">
 
         <!-- Intro -->
-        <div class="intro" id="intro">
+        <div class="intro" id="intro" data-scroll="#intro">
             <div class="container">
-                <div class="intro-inner">
-                    <h2 class="intro-suptitle">Creative Template</h2>
-                    <h1 class="intro-title">Welcome to MoGo</h1>
+                <div class="intro__inner">
+                    <h2 class="intro__suptitle">Creative Template</h2>
+                    <h1 class="intro__title">Welcome to MoGo</h1>
 
                     <a class="btn" href="#">Learn More</a>
                 </div>
@@ -69,18 +69,18 @@
 
             <div class="slider">
                 <div class="container">
-                    <div class="slider-inner">
-                        <div class="slider-item active">
-                            <span class="slider-num">01</span> <span class="slider-text">Intro</span>
+                    <div class="slider__inner">
+                        <div class="slider__item active">
+                            <span class="slider__num">01</span> <span class="slider__text">Intro</span>
                         </div>
-                        <div class="slider-item">
-                            <span class="slider-num">02</span> <span class="slider-text">Work</span>
+                        <div class="slider__item">
+                            <span class="slider__num">02</span> <span class="slider__text">Work</span>
                         </div>
-                        <div class="slider-item">
-                            <span class="slider-num">03</span> <span class="slider-text">About</span>
+                        <div class="slider__item">
+                            <span class="slider__num">03</span> <span class="slider__text">About</span>
                         </div>
-                        <div class="slider-item">
-                            <span class="slider-num">04</span> <span class="slider-text">Contacts</span>
+                        <div class="slider__item">
+                            <span class="slider__num">04</span> <span class="slider__text">Contacts</span>
                         </div>
                     </div>
                 </div>
@@ -91,10 +91,10 @@
         <!-- About -->
         <section class="section" id="about">
             <div class="container">
-                <div class="section-header">
-                    <h3 class="section-suptitle">What we do</h3>
-                    <h2 class="section-title">Story about us</h2>
-                    <div class="section-text">
+                <div class="section__header">
+                    <h3 class="section__suptitle">What we do</h3>
+                    <h2 class="section__title">Story about us</h2>
+                    <div class="section__text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna
                             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -105,30 +105,30 @@
 
                 <div class="card">
 
-                    <div class="card-item">
-                        <div class="card-inner">
-                            <div class="card-img">
+                    <div class="card__item">
+                        <div class="card__inner">
+                            <div class="card__img">
                                 <img src="img/about/about-1.jpg" alt="">
                             </div>
-                            <div class="card-text">Super team</div>
+                            <div class="card__text">Super team</div>
                         </div>
                     </div>
 
-                    <div class="card-item">
-                        <div class="card-inner">
-                            <div class="card-img">
+                    <div class="card__item">
+                        <div class="card__inner">
+                            <div class="card__img">
                                 <img src="img/about/about-2.jpg" alt="">
                             </div>
-                            <div class="card-text">Super team</div>
+                            <div class="card__text">Super team</div>
                         </div>
                     </div>
 
-                    <div class="card-item">
-                        <div class="card-inner">
-                            <div class="card-img">
+                    <div class="card__item">
+                        <div class="card__inner">
+                            <div class="card__img">
                                 <img src="img/about/about-3.jpg" alt="">
                             </div>
-                            <div class="card-text">Super team</div>
+                            <div class="card__text">Super team</div>
                         </div>
                     </div>
 
@@ -141,25 +141,25 @@
         <div class="statistics">
             <div class="container">
                 <div class="stat">
-                    <div class="stat-item">
-                        <div class="stat-count">42</div>
-                        <div class="stat-text">Web Design Projects</div>
+                    <div class="stat__item">
+                        <div class="stat__count">42</div>
+                        <div class="stat__text">Web Design Projects</div>
                     </div>
-                    <div class="stat-item">
-                        <div class="stat-count">123</div>
-                        <div class="stat-text">happy client</div>
+                    <div class="stat__item">
+                        <div class="stat__count">123</div>
+                        <div class="stat__text">happy client</div>
                     </div>
-                    <div class="stat-item">
-                        <div class="stat-count">15</div>
-                        <div class="stat-text">award winner</div>
+                    <div class="stat__item">
+                        <div class="stat__count">15</div>
+                        <div class="stat__text">award winner</div>
                     </div>
-                    <div class="stat-item">
-                        <div class="stat-count">99</div>
-                        <div class="stat-text">cup of coffee</div>
+                    <div class="stat__item">
+                        <div class="stat__count">99</div>
+                        <div class="stat__text">cup of coffee</div>
                     </div>
-                    <div class="stat-item">
-                        <div class="stat-count">24</div>
-                        <div class="stat-text">members</div>
+                    <div class="stat__item">
+                        <div class="stat__count">24</div>
+                        <div class="stat__text">members</div>
                     </div>
                 </div>
             </div>
@@ -168,57 +168,57 @@
         <!-- Services -->
         <section class="section" id="services">
             <div class="container">
-                <div class="section-header">
-                    <h3 class="section-suptitle">We work with</h3>
-                    <h2 class="section-title">Amazing Services</h2>
+                <div class="section__header">
+                    <h3 class="section__suptitle">We work with</h3>
+                    <h2 class="section__title">Amazing Services</h2>
 
                 </div>
 
                 <div class="services">
-                    <div class="services-item services-item--border">
-                        <img class="services-icon" src="img/services/ALARM.svg" alt="">
-                        <div class="services-title">Photography</div>
-                        <div class="services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <div class="services__item services__item--border">
+                        <img class="services__icon" src="img/services/ALARM.svg" alt="">
+                        <div class="services__title">Photography</div>
+                        <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod
                             tempor.</div>
                     </div>
 
-                    <div class="services-item services-item--border">
-                        <img class="services-icon" src="img/services/LINE_GRAPH.svg" alt="">
-                        <div class="services-title">Web Design</div>
-                        <div class="services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <div class="services__item services__item--border">
+                        <img class="services__icon" src="img/services/LINE_GRAPH.svg" alt="">
+                        <div class="services__title">Web Design</div>
+                        <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod
                             tempor.</div>
                     </div>
 
-                    <div class="services-item services-item--border">
-                        <img class="services-icon" src="img/services/COMPUTER_OK.svg" alt="">
-                        <div class="services-title">Creativity</div>
-                        <div class="services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <div class="services__item services__item--border">
+                        <img class="services__icon" src="img/services/COMPUTER_OK.svg" alt="">
+                        <div class="services__title">Creativity</div>
+                        <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod
                             tempor.</div>
                     </div>
 
-                    <div class="services-item">
-                        <img class="services-icon" src="img/services/BOOK_2.svg" alt="">
-                        <div class="services-title">seo</div>
-                        <div class="services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <div class="services__item">
+                        <img class="services__icon" src="img/services/BOOK_2.svg" alt="">
+                        <div class="services__title">seo</div>
+                        <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod
                             tempor.</div>
                     </div>
 
-                    <div class="services-item">
-                        <img class="services-icon" src="img/services/HOME.svg" alt="">
-                        <div class="services-title">Css/Html</div>
-                        <div class="services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <div class="services__item">
+                        <img class="services__icon" src="img/services/HOME.svg" alt="">
+                        <div class="services__title">Css/Html</div>
+                        <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod
                             tempor.</div>
                     </div>
 
-                    <div class="services-item">
-                        <img class="services-icon" src="img/services/DIGITAL.svg" alt="">
-                        <div class="services-title">digital</div>
-                        <div class="services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <div class="services__item">
+                        <img class="services__icon" src="img/services/DIGITAL.svg" alt="">
+                        <div class="services__title">digital</div>
+                        <div class="services__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod
                             tempor.</div>
                     </div>
@@ -233,15 +233,15 @@
         <!-- Devices -->
         <section class="section section--devices">
             <div class="container">
-                <div class="section-header">
-                    <h3 class="section-suptitle">For all devices</h3>
-                    <h2 class="section-title">Unique design</h2>
+                <div class="section__header">
+                    <h3 class="section__suptitle">For all devices</h3>
+                    <h2 class="section__title">Unique design</h2>
 
                 </div>
 
                 <div class="devices">
-                    <img class="devices-item" src="img/devices/ipad_png.png" alt="">
-                    <img class="devices-item device-item--iphone" src="img/devices/iphone.png" alt="">
+                    <img class="devices__item" src="img/devices/ipad_png.png" alt="">
+                    <img class="devices__item device__item--iphone" src="img/devices/iphone.png" alt="">
 
                 </div>
             </div> <!-- /.container -->
@@ -250,10 +250,10 @@
         <!-- Wedo -->
         <section class="section">
             <div class="container">
-                <div class="section-header">
-                    <h3 class="section-suptitle">Service</h3>
-                    <h2 class="section-title">what we do</h2>
-                    <div class="section-text">
+                <div class="section__header">
+                    <h3 class="section__suptitle">Service</h3>
+                    <h2 class="section__title">what we do</h2>
+                    <div class="section__text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna
                             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -263,18 +263,18 @@
                 </div>
 
                 <div class="wedo">
-                    <div class="wedo-item">
-                        <img class="wedo-img" src="img/wedo/wedo.jpg" alt="">
+                    <div class="wedo__item">
+                        <img class="wedo__img" src="img/wedo/wedo.jpg" alt="">
                     </div>
-                    <div class="wedo-item">
+                    <div class="wedo__item">
                         <div class="accordion">
 
-                            <div class="accordion-item" data-collapse="#wedo-1">
-                                <div class="accordion-header">
-                                    <img class="accordion-icon" src="img/wedo/PICTURE.png" alt="">
-                                    <div class="accordion-title">Photography</div>
+                            <div class="accordion__item" data-collapse="#wedo-1">
+                                <div class="accordion__header">
+                                    <img class="accordion__icon" src="img/wedo/PICTURE.png" alt="">
+                                    <div class="accordion__title">Photography</div>
                                 </div>
-                                <div class="accordion-content" id="wedo-1">
+                                <div class="accordion__content" id="wedo-1">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                         do eiusmod tempor incididunt ut labore et dolore magna
                                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
@@ -291,12 +291,12 @@
                                 </div>
                             </div>
 
-                            <div class="accordion-item active" data-collapse="#wedo-2">
-                                <div class="accordion-header">
-                                    <img class="accordion-icon" src="img/wedo/EQUALIZER.png" alt="">
-                                    <div class="accordion-title">creativity</div>
+                            <div class="accordion__item active" data-collapse="#wedo-2">
+                                <div class="accordion__header">
+                                    <img class="accordion__icon" src="img/wedo/EQUALIZER.png" alt="">
+                                    <div class="accordion__title">creativity</div>
                                 </div>
-                                <div class="accordion-content" id="wedo-2">
+                                <div class="accordion__content" id="wedo-2">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                         do eiusmod tempor incididunt ut labore et dolore magna
                                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
@@ -313,12 +313,12 @@
                                 </div>
                             </div>
 
-                            <div class="accordion-item" data-collapse="#wedo-3">
-                                <div class="accordion-header">
-                                    <img class="accordion-icon" src="img/wedo/BULLSEYE.png" alt="">
-                                    <div class="accordion-title">web design</div>
+                            <div class="accordion__item" data-collapse="#wedo-3">
+                                <div class="accordion__header">
+                                    <img class="accordion__icon" src="img/wedo/BULLSEYE.png" alt="">
+                                    <div class="accordion__title">web design</div>
                                 </div>
-                                <div class="accordion-content" id="wedo-3">
+                                <div class="accordion__content" id="wedo-3">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                         do eiusmod tempor incididunt ut labore et dolore magna
                                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
@@ -336,7 +336,7 @@
                             </div>
 
                         </div> <!-- /.accordion -->
-                    </div><!-- /.wedo-item -->
+                    </div><!-- /.wedo__item -->
                 </div> <!-- /.wedo -->
             </div><!-- /.container -->
         </section>
@@ -349,30 +349,30 @@
 
                     <div data-slider>
                         <div>
-                            <div class="reviews-item">
+                            <div class="reviews__item">
 
 
-                                <img class="reviews-photo" src="img/reviews/review-2.png" alt="">
-                                <div class="reviews-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                <img class="reviews__photo" src="img/reviews/review-2.png" alt="">
+                                <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                     do
                                     eiusmod
                                     tempor incididunt ut labore et dolore magna
                                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
-                                <div class="reviews-author">Jon Doe</div>
+                                <div class="reviews__author">Jon Doe</div>
                             </div>
                         </div>
 
                         <div>
-                            <div class="reviews-item">
+                            <div class="reviews__item">
 
 
-                                <img class="reviews-photo" src="img/reviews/review-2.png" alt="">
-                                <div class="reviews-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                <img class="reviews__photo" src="img/reviews/review-2.png" alt="">
+                                <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                     do
                                     eiusmod
                                     tempor incididunt ut labore et dolore magna
                                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
-                                <div class="reviews-author">Jon Doe</div>
+                                <div class="reviews__author">Jon Doe</div>
                             </div>
                         </div>
 
@@ -387,10 +387,10 @@
         <section class="section">
             <div class="container">
 
-                <div class="section-header">
-                    <h3 class="section-suptitle">Who we are</h3>
-                    <h2 class="section-title">Meet our team</h2>
-                    <div class="section-text">
+                <div class="section__header">
+                    <h3 class="section__suptitle">Who we are</h3>
+                    <h2 class="section__title">Meet our team</h2>
+                    <div class="section__text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna
                             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -401,87 +401,87 @@
 
                 <div class="card">
 
-                    <div class="card-item">
-                        <div class="card-inner">
-                            <div class="card-img">
+                    <div class="card__item">
+                        <div class="card__inner">
+                            <div class="card__img">
                                 <img src="img/team/team-1.jpg" alt="">
                             </div>
-                            <div class="card-text">
+                            <div class="card__text">
                                 <div class="social">
-                                    <a class="social-item" href="#" target="_blank">
+                                    <a class="social__item" href="#" target="_blank">
                                         <i class="fa-brands fa-facebook-f"></i>
                                     </a>
-                                    <a class="social-item" href="#" target="_blank">
+                                    <a class="social__item" href="#" target="_blank">
                                         <i class="fa-brands fa-twitter"></i>
                                     </a>
-                                    <a class="social-item" href="#" target="_blank">
+                                    <a class="social__item" href="#" target="_blank">
                                         <i class="fa-brands fa-pinterest-p"></i>
                                     </a>
-                                    <a class="social-item" href="#" target="_blank">
+                                    <a class="social__item" href="#" target="_blank">
                                         <i class="fa-brands fa-instagram"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <div class="card-info">
-                            <div class="card-name">Matthew Dix</div>
-                            <div class="card-prof">Graphic Design</div>
+                        <div class="card__info">
+                            <div class="card__name">Matthew Dix</div>
+                            <div class="card__prof">Graphic Design</div>
                         </div>
                     </div>
 
-                    <div class="card-item">
-                        <div class="card-inner">
-                            <div class="card-img">
+                    <div class="card__item">
+                        <div class="card__inner">
+                            <div class="card__img">
                                 <img src="img/team/team-2.jpg" alt="">
                             </div>
-                            <div class="card-text">
+                            <div class="card__text">
                                 <div class="social">
-                                    <a class="social-item" href="#" target="_blank">
+                                    <a class="social__item" href="#" target="_blank">
                                         <i class="fa-brands fa-facebook-f"></i>
                                     </a>
-                                    <a class="social-item" href="#" target="_blank">
+                                    <a class="social__item" href="#" target="_blank">
                                         <i class="fa-brands fa-twitter"></i>
                                     </a>
-                                    <a class="social-item" href="#" target="_blank">
+                                    <a class="social__item" href="#" target="_blank">
                                         <i class="fa-brands fa-pinterest-p"></i>
                                     </a>
-                                    <a class="social-item" href="#" target="_blank">
+                                    <a class="social__item" href="#" target="_blank">
                                         <i class="fa-brands fa-instagram"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <div class="card-info">
-                            <div class="card-name">Christopher Campbell</div>
-                            <div class="card-prof">Branding/UX design</div>
+                        <div class="card__info">
+                            <div class="card__name">Christopher Campbell</div>
+                            <div class="card__prof">Branding/UX design</div>
                         </div>
                     </div>
 
-                    <div class="card-item">
-                        <div class="card-inner">
-                            <div class="card-img">
+                    <div class="card__item">
+                        <div class="card__inner">
+                            <div class="card__img">
                                 <img src="img/team/team-3.jpg" alt="">
                             </div>
-                            <div class="card-text">
+                            <div class="card__text">
                                 <div class="social">
-                                    <a class="social-item" href="#" target="_blank">
+                                    <a class="social__item" href="#" target="_blank">
                                         <i class="fa-brands fa-facebook-f"></i>
                                     </a>
-                                    <a class="social-item" href="#" target="_blank">
+                                    <a class="social__item" href="#" target="_blank">
                                         <i class="fa-brands fa-twitter"></i>
                                     </a>
-                                    <a class="social-item" href="#" target="_blank">
+                                    <a class="social__item" href="#" target="_blank">
                                         <i class="fa-brands fa-pinterest-p"></i>
                                     </a>
-                                    <a class="social-item" href="#" target="_blank">
+                                    <a class="social__item" href="#" target="_blank">
                                         <i class="fa-brands fa-instagram"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <div class="card-info">
-                            <div class="card-name">Michael Fertig</div>
-                            <div class="card-prof">Developer</div>
+                        <div class="card__info">
+                            <div class="card__name">Michael Fertig</div>
+                            <div class="card__prof">Developer</div>
                         </div>
                     </div>
 
@@ -496,23 +496,23 @@
 
                 <div class="logos">
 
-                    <div class="logos-item">
-                        <img class="logos-img" src="img/logos/logo_1.png" alt="">
+                    <div class="logos__item">
+                        <img class="logos__img" src="img/logos/logo_1.png" alt="">
                     </div>
-                    <div class="logos-item">
-                        <img class="logos-img" src="img/logos/logo_2.png" alt="">
+                    <div class="logos__item">
+                        <img class="logos__img" src="img/logos/logo_2.png" alt="">
                     </div>
-                    <div class="logos-item">
-                        <img class="logos-img" src="img/logos/logo_3.png" alt="">
+                    <div class="logos__item">
+                        <img class="logos__img" src="img/logos/logo_3.png" alt="">
                     </div>
-                    <div class="logos-item">
-                        <img class="logos-img" src="img/logos/logo_4.png" alt="">
+                    <div class="logos__item">
+                        <img class="logos__img" src="img/logos/logo_4.png" alt="">
                     </div>
-                    <div class="logos-item">
-                        <img class="logos-img" src="img/logos/logo_5.png" alt="">
+                    <div class="logos__item">
+                        <img class="logos__img" src="img/logos/logo_5.png" alt="">
                     </div>
-                    <div class="logos-item">
-                        <img class="logos-img" src="img/logos/logo_6.png" alt="">
+                    <div class="logos__item">
+                        <img class="logos__img" src="img/logos/logo_6.png" alt="">
                     </div>
 
                 </div>
@@ -524,10 +524,10 @@
         <section class="section" id="works">
             <div class="container">
 
-                <div class="section-header">
-                    <h3 class="section-suptitle">What we do</h3>
-                    <h2 class="section-title">some of our work</h2>
-                    <div class="section-text">
+                <div class="section__header">
+                    <h3 class="section__suptitle">What we do</h3>
+                    <h2 class="section__title">some of our work</h2>
+                    <div class="section__text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna
                             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -541,73 +541,73 @@
 
             <div class="works">
 
-                <div class="works-col">
+                <div class="works__col">
 
-                    <div class="works-item">
-                        <img class="works-img" src="img/works/img1-1.jpg" alt="">
-                        <div class="works-info">
-                            <div class="works-title">creatively designed</div>
-                            <div class="works-text">Lorem ipsum dolor sit</div>
+                    <div class="works__item">
+                        <img class="works__img" src="img/works/img1-1.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
                         </div>
                     </div>
 
-                    <div class="works-item">
-                        <img class="works-img" src="img/works/img1-2.jpg" alt="">
-                        <div class="works-info">
-                            <div class="works-title">creatively designed</div>
-                            <div class="works-text">Lorem ipsum dolor sit</div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="works-col">
-
-                    <div class="works-item">
-                        <img class="works-img" src="img/works/img2-1.jpg" alt="">
-                        <div class="works-info">
-                            <div class="works-title">creatively designed</div>
-                            <div class="works-text">Lorem ipsum dolor sit</div>
-                        </div>
-                    </div>
-
-                    <div class="works-item">
-                        <img class="works-img" src="img/works/img2-2.jpg" alt="">
-                        <div class="works-info">
-                            <div class="works-title">creatively designed</div>
-                            <div class="works-text">Lorem ipsum dolor sit</div>
+                    <div class="works__item">
+                        <img class="works__img" src="img/works/img1-2.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
                         </div>
                     </div>
 
                 </div>
 
-                <div class="works-col">
+                <div class="works__col">
 
-                    <div class="works-item">
-                        <img class="works-img" src="img/works/img3-1.jpg" alt="">
-                        <div class="works-info">
-                            <div class="works-title">creatively designed</div>
-                            <div class="works-text">Lorem ipsum dolor sit</div>
+                    <div class="works__item">
+                        <img class="works__img" src="img/works/img2-1.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
+                        </div>
+                    </div>
+
+                    <div class="works__item">
+                        <img class="works__img" src="img/works/img2-2.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
                         </div>
                     </div>
 
                 </div>
 
-                <div class="works-col">
+                <div class="works__col">
 
-                    <div class="works-item">
-                        <img class="works-img" src="img/works/img4-1.jpg" alt="">
-                        <div class="works-info">
-                            <div class="works-title">creatively designed</div>
-                            <div class="works-text">Lorem ipsum dolor sit</div>
+                    <div class="works__item">
+                        <img class="works__img" src="img/works/img3-1.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
                         </div>
                     </div>
 
-                    <div class="works-item">
-                        <img class="works-img" src="img/works/img4-2.jpg" alt="">
-                        <div class="works-info">
-                            <div class="works-title">creatively designed</div>
-                            <div class="works-text">Lorem ipsum dolor sit</div>
+                </div>
+
+                <div class="works__col">
+
+                    <div class="works__item">
+                        <img class="works__img" src="img/works/img4-1.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
+                        </div>
+                    </div>
+
+                    <div class="works__item">
+                        <img class="works__img" src="img/works/img4-2.jpg" alt="">
+                        <div class="works__info">
+                            <div class="works__title">creatively designed</div>
+                            <div class="works__text">Lorem ipsum dolor sit</div>
                         </div>
                     </div>
 
@@ -626,30 +626,30 @@
                     <div data-slider>
 
                         <div>
-                            <div class="reviews-item">
+                            <div class="reviews__item">
 
 
-                                <img class="reviews-photo" src="img/reviews/review-2.png" alt="">
-                                <div class="reviews-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                <img class="reviews__photo" src="img/reviews/review-2.png" alt="">
+                                <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                     do
                                     eiusmod
                                     tempor incididunt ut labore et dolore magna
                                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
-                                <div class="reviews-author">Joshua Earle</div>
+                                <div class="reviews__author">Joshua Earle</div>
                             </div>
                         </div>
 
                         <div>
-                            <div class="reviews-item">
+                            <div class="reviews__item">
 
 
-                                <img class="reviews-photo" src="img/reviews/review-2.png" alt="">
-                                <div class="reviews-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                <img class="reviews__photo" src="img/reviews/review-2.png" alt="">
+                                <div class="reviews__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                                     do
                                     eiusmod
                                     tempor incididunt ut labore et dolore magna
                                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</div>
-                                <div class="reviews-author">Joshua Earle</div>
+                                <div class="reviews__author">Joshua Earle</div>
                             </div>
                         </div>
 
@@ -663,52 +663,52 @@
         <section class="section section--clients">
             <div class="container">
 
-                <div class="section-header">
-                    <h3 class="section-suptitle">Happy Clients</h3>
-                    <h2 class="section-title">What people say</h2>
+                <div class="section__header">
+                    <h3 class="section__suptitle">Happy Clients</h3>
+                    <h2 class="section__title">What people say</h2>
                 </div>
 
                 <div class="clients">
 
-                    <div class="clients-item">
-                        <img class="clients-photo" src="img/clients/client-1.png" alt="">
-                        <div class="clients-content">
-                            <div class="clients-name">Matthew Dix</div>
-                            <div class="clients-prof">Graphic Design</div>
-                            <div class="clients-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <div class="clients__item">
+                        <img class="clients__photo" src="img/clients/client-1.png" alt="">
+                        <div class="clients__content">
+                            <div class="clients__name">Matthew Dix</div>
+                            <div class="clients__prof">Graphic Design</div>
+                            <div class="clients__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna
                                 aliqua. Ut enim ad minim.</div>
                         </div>
                     </div>
 
-                    <div class="clients-item">
-                        <img class="clients-photo" src="img/clients/client-2.png" alt="">
-                        <div class="clients-content">
-                            <div class="clients-name">Nick Karvounis</div>
-                            <div class="clients-prof">Graphic Design</div>
-                            <div class="clients-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <div class="clients__item">
+                        <img class="clients__photo" src="img/clients/client-2.png" alt="">
+                        <div class="clients__content">
+                            <div class="clients__name">Nick Karvounis</div>
+                            <div class="clients__prof">Graphic Design</div>
+                            <div class="clients__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna
                                 aliqua. Ut enim ad minim.</div>
                         </div>
                     </div>
 
-                    <div class="clients-item">
-                        <img class="clients-photo" src="img/clients/client-3.png" alt="">
-                        <div class="clients-content">
-                            <div class="clients-name">Jaelynn Castillo</div>
-                            <div class="clients-prof">Graphic Design</div>
-                            <div class="clients-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <div class="clients__item">
+                        <img class="clients__photo" src="img/clients/client-3.png" alt="">
+                        <div class="clients__content">
+                            <div class="clients__name">Jaelynn Castillo</div>
+                            <div class="clients__prof">Graphic Design</div>
+                            <div class="clients__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna
                                 aliqua. Ut enim ad minim.</div>
                         </div>
                     </div>
 
-                    <div class="clients-item">
-                        <img class="clients-photo" src="img/clients/client-4.png" alt="">
-                        <div class="clients-content">
-                            <div class="clients-name">Mike Petrucci</div>
-                            <div class="clients-prof">Graphic Design</div>
-                            <div class="clients-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <div class="clients__item">
+                        <img class="clients__photo" src="img/clients/client-4.png" alt="">
+                        <div class="clients__content">
+                            <div class="clients__name">Mike Petrucci</div>
+                            <div class="clients__prof">Graphic Design</div>
+                            <div class="clients__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna
                                 aliqua. Ut enim ad minim.</div>
                         </div>
@@ -727,96 +727,97 @@
 
             <div class="container">
 
-                <div class="section-header">
-                    <h3 class="section-suptitle">Our stories</h3>
-                    <h2 class="section-title">Latest blog</h2>
+                <div class="section__header">
+                    <h3 class="section__suptitle">Our stories</h3>
+                    <h2 class="section__title">Latest blog</h2>
                 </div>
 
                 <div class="blog">
 
-                    <div class="blog-item">
-                        <div class="blog-header">
+                    <div class="blog__item">
+                        <div class="blog__header">
                             <a href="#">
-                                <img class="blog-photo" src="img/blog/img1.jpg" alt="">
+                                <img class="blog__photo" src="img/blog/img1.jpg" alt="">
                             </a>
-                            <div class="blog-date">
-                                <div class="blog-date-day">15</div>
+                            <div class="blog__date">
+                                <div class="blog__date--day">15</div>
                                 Jan
                             </div>
                         </div>
-                        <div class="blog-content">
-                            <div class="blog-title">
+                        <div class="blog__content">
+                            <div class="blog__title">
                                 <a href="#">Lorem ipsum dolor sit amet</a>
                             </div>
-                            <div class="blog-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            <div class="blog__text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore
                                 et dolore magna aliqua.</div>
                         </div>
-                        <div class="blog-footer">
+                        <div class="blog__footer">
                             <div class="blog-stat">
-                                <span class="blog-stat-item">
+                                <span class="blog-stat__item">
                                     <i class="fa-regular fa-eye"></i> 542
                                 </span>
-                                <span class="blog-stat-item">
+                                <span class="blog-stat__item">
                                     <i class="fa-regular fa-comment-dots"></i> 17
                                 </span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="blog-item">
-                        <div class="blog-header">
+                    <div class="blog__item">
+                        <div class="blog__header">
                             <a href="#">
-                                <img class="blog-photo" src="img/blog/img2.jpg" alt="">
+                                <img class="blog__photo" src="img/blog/img2.jpg" alt="">
                             </a>
-                            <div class="blog-date">
-                                <div class="blog-date-day">14</div>
+                            <div class="blog__date">
+                                <div class="blog__date--day">14</div>
                                 Jan
                             </div>
                         </div>
-                        <div class="blog-content">
-                            <div class="blog-title">
+                        <div class="blog__content">
+                            <div class="blog__title">
                                 <a href="#">sed do eiusmod tempor</a>
                             </div>
-                            <div class="blog-text">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            <div class="blog__text">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                dolore
                                 magna aliqua.</div>
                         </div>
-                        <div class="blog-footer">
+                        <div class="blog__footer">
                             <div class="blog-stat">
-                                <span class="blog-stat-item">
+                                <span class="blog-stat__item">
                                     <i class="fa-regular fa-eye"></i> 992
                                 </span>
-                                <span class="blog-stat-item">
+                                <span class="blog-stat__item">
                                     <i class="fa-regular fa-comment-dots"></i> 42
                                 </span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="blog-item">
-                        <div class="blog-header">
+                    <div class="blog__item">
+                        <div class="blog__header">
                             <a href="#">
-                                <img class="blog-photo" src="img/blog/img3.jpg" alt="">
+                                <img class="blog__photo" src="img/blog/img3.jpg" alt="">
                             </a>
-                            <div class="blog-date">
-                                <div class="blog-date-day">12</div>
+                            <div class="blog__date">
+                                <div class="blog__date--day">12</div>
                                 Jan
                             </div>
                         </div>
-                        <div class="blog-content">
-                            <div class="blog-title">
+                        <div class="blog__content">
+                            <div class="blog__title">
                                 <a href="#">incididunt ut labore et dolore</a>
                             </div>
-                            <div class="blog-text">Elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            <div class="blog__text">Elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                                 aliqua.
                             </div>
                         </div>
-                        <div class="blog-footer">
+                        <div class="blog__footer">
                             <div class="blog-stat">
-                                <span class="blog-stat-item">
+                                <span class="blog-stat__item">
                                     <i class="fa-regular fa-eye"></i> 1560
                                 </span>
-                                <span class="blog-stat-item">
+                                <span class="blog-stat__item">
                                     <i class="fa-regular fa-comment-dots"></i> 98
                                 </span>
                             </div>
@@ -833,7 +834,7 @@
         <section class="section section--map">
             <div class="container">
                 <div class="map">
-                    <h2 class="map-title">
+                    <h2 class="map__title">
                         <div><i class="fa-sharp fa-solid fa-location-dot"></i></div>
                         <a href="https://goo.gl/maps/FadkBTJj93UtLFAPA" target="_blank">Open Map</a>
                     </h2>
@@ -845,13 +846,14 @@
         <footer class="footer" id="footer">
             <div class="container">
 
-                <div class="footer-inner">
+                <div class="footer__inner">
 
-                    <div class="footer-col footer-col--first">
+                    <div class="footer__col footer__col--first">
 
-                        <div class="footer-logo">MoGo</div>
+                        <div class="footer__logo">MoGo</div>
 
-                        <div class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        <div class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod
                             tempor incididunt ut labore et dolore magna
                             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                             ex ea
@@ -863,10 +865,10 @@
 
                         <div class="footer-social">
 
-                            <div class="footer-social-header">
+                            <div class="footer-social__header">
                                 <b>15k</b> followers
                             </div>
-                            <div class="footer-social-content">
+                            <div class="footer-social__content">
                                 Follow Us:
                                 <a href="#" target="_blank">
                                     <i class="fa-brands fa-facebook-f"></i>
@@ -895,88 +897,88 @@
                             </div>
 
                             <form class="subscribe" action="/" method="post">
-                                <input class="subscribe-input" type="email" name="email" placeholder="Your Email...">
-                                <button class="subscribe-button" type="submit">Subscribe</button>
+                                <input class="subscribe__input" type="email" name="email" placeholder="Your Email...">
+                                <button class="subscribe__button" type="submit">Subscribe</button>
                             </form>
 
                         </div><!-- /.footer-social -->
-                    </div> <!-- /.footer-col -->
+                    </div> <!-- /.footer__col -->
 
-                    <div class="footer-col footer-col--second">
-                        <div class="footer-title">Blogs</div>
+                    <div class="footer__col footer__col--second">
+                        <div class="footer__title">Blogs</div>
 
                         <div class="blogs">
 
-                            <div class="blogs-item">
-                                <img class="blogs-img" src="img/blogs/1.jpg" alt="">
-                                <div class="blogs-content">
-                                    <a class="blogs-title" href="#">Lorem ipsum dolor sit amet,
+                            <div class="blogs__item">
+                                <img class="blogs__img" src="img/blogs/1.jpg" alt="">
+                                <div class="blogs__content">
+                                    <a class="blogs__title" href="#">Lorem ipsum dolor sit amet,
                                         consectetur adipiscing</a>
-                                    <div class="blogs-date">Jan 9, 2016</div>
+                                    <div class="blogs__date">Jan 9, 2016</div>
                                 </div>
                             </div>
 
-                            <div class="blogs-item">
-                                <img class="blogs-img" src="img/blogs/2.jpg" alt="">
-                                <div class="blogs-content">
-                                    <a class="blogs-title" href="#">Consectetur adipiscing elit,
+                            <div class="blogs__item">
+                                <img class="blogs__img" src="img/blogs/2.jpg" alt="">
+                                <div class="blogs__content">
+                                    <a class="blogs__title" href="#">Consectetur adipiscing elit,
                                         sed do eiusmod tempor</a>
-                                    <div class="blogs-date">Jan 9, 2016</div>
+                                    <div class="blogs__date">Jan 9, 2016</div>
                                 </div>
                             </div>
 
-                            <div class="blogs-item">
-                                <img class="blogs-img" src="img/blogs/3.jpg" alt="">
-                                <div class="blogs-content">
-                                    <a class="blogs-title" href="#">sed do eiusmod tempor
+                            <div class="blogs__item">
+                                <img class="blogs__img" src="img/blogs/3.jpg" alt="">
+                                <div class="blogs__content">
+                                    <a class="blogs__title" href="#">sed do eiusmod tempor
                                         incididunt ut labore</a>
-                                    <div class="blogs-date">Jan 9, 2016</div>
+                                    <div class="blogs__date">Jan 9, 2016</div>
                                 </div>
                             </div>
 
 
                         </div><!-- /.blogs -->
 
-                    </div> <!-- /.footer-col -->
+                    </div> <!-- /.footer__col -->
 
-                    <div class="footer-col footer-col--third">
-                        <div class="footer-title">Instagram</div>
+                    <div class="footer__col footer__col--third">
+                        <div class="footer__title">Instagram</div>
 
                         <div class="instagram">
-                            <a class="instagram-item" href="#" target="_blank">
+                            <a class="instagram__item" href="#" target="_blank">
                                 <img src="img/instagram/1.jpg" alt="">
                             </a>
-                            <a class="instagram-item" href="#" target="_blank">
+                            <a class="instagram__item" href="#" target="_blank">
                                 <img src="img/instagram/2.jpg" alt="">
                             </a>
-                            <a class="instagram-item" href="#" target="_blank">
+                            <a class="instagram__item" href="#" target="_blank">
                                 <img src="img/instagram/3.jpg" alt="">
                             </a>
-                            <a class="instagram-item" href="#" target="_blank">
+                            <a class="instagram__item" href="#" target="_blank">
                                 <img src="img/instagram/4.jpg" alt="">
                             </a>
-                            <a class="instagram-item" href="#" target="_blank">
+                            <a class="instagram__item" href="#" target="_blank">
                                 <img src="img/instagram/5.jpg" alt="">
                             </a>
-                            <a class="instagram-item" href="#" target="_blank">
+                            <a class="instagram__item" href="#" target="_blank">
                                 <img src="img/instagram/6.jpg" alt="">
                             </a>
-                            <a class="instagram-item" href="#" target="_blank">
+                            <a class="instagram__item" href="#" target="_blank">
                                 <img src="img/instagram/7.jpg" alt="">
                             </a>
-                            <a class="instagram-item" href="#" target="_blank">
+                            <a class="instagram__item" href="#" target="_blank">
                                 <img src="img/instagram/8.jpg" alt="">
                             </a>
-                            <a class="instagram-item" href="#" target="_blank">
+                            <a class="instagram__item" href="#" target="_blank">
                                 <img src="img/instagram/9.jpg" alt="">
                             </a>
                         </div>
                         <div>
-                            <a class="footer-more-photos" href="#" target="_blank">
+                            <a class="footer__more-photos" href="#" target="_blank">
                                 View more photos
                             </a>
                         </div>
-                    </div> <!-- /.footer-col -->
+                    </div> <!-- /.footer__col -->
 
                 </div><!-- /.footer-inner -->
 
